@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Member = () => {
-  return (
-    <div>
-      Member
-    </div>
-  )
-}
+  return <div>Member</div>;
+};
 
-export default Member
+export default Member;
