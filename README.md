@@ -12,11 +12,11 @@
 
 ## 사용 스택
 <ul>
-  <li>React: 사용자 인터페이스를 구축하기 위해 사용되는 JavaScript 라이브러리입니다. 컴포넌트 기반 아키텍처를 제공하여 UI를 모듈화하고 재사용성을 높여줍니다.</li>
-    <li>JavaScript: 웹 페이지의 동적인 기능을 구현하기 위해 사용되는 프로그래밍 언어입니다. React 애플리케이션은 JavaScript로 작성됩니다.</li>
-      <li>HTML/CSS: 웹 페이지의 구조와 스타일을 정의하는 데 사용되는 마크업 언어와 스타일 시트입니다.</li>
-      <li>Fetch API: 웹 브라우저에서 제공하는 비동기 네트워크 요청을 위한 API입니다. 서버와 데이터를 주고받는데 사용됩니다.</li>
-  <li>React Hooks: 함수형 컴포넌트에서 상태(State)와 생명주기 기능을 사용하기 위한 React의 기능입니다. useState와 useEffect가 이 코드에서 사용된 예시입니다.</li>
-    <li>JSX: JavaScript의 확장 문법으로, React 컴포넌트의 UI를 작성하기 위해 사용됩니다. JavaScript 코드 내에서 HTML과 유사한 구문을 작성할 수 있게 해줍니다.</li>
-      <li>Git: 파일을 관리합니다.</li>
+  <li>Next.js: 웹 애플리케이션을 개발하기 위한 React 프레임워크로, 서버 사이드 렌더링(SSR)과 정적 사이트 생성 등의 기능을 제공합니다.</li>
+  <li>React: 웹 애플리케이션의 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리입니다. Next.js는 React를 기반으로 동작합니다.</li>
+  <li>React DOM: React 애플리케이션을 브라우저에서 렌더링하는데 사용되는 패키지입니다.</li>
+  <li>Sass: CSS의 확장 문법인 Sass(Syntactically Awesome StyleSheets)를 사용하기 위한 패키지입니다.</li>
+  <br><br>
+  <li>build: 프로덕션용 빌드를 생성하는데 사용됩니다. 빌드 파일은 정적 파일이나 서버사이드 코드를 포함합니다.</li>
+  <li>start: 프로덕션용 빌드를 실행하는데 사용되며, build 명령어로 생성된 결과물을 실행합니다.</li>
 </ul>
